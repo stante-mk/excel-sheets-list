@@ -1,6 +1,8 @@
 {
   "name": "excel-sheets-list",
   "version": "1.0.0",
+  "description": "Excel Add-in to list, search, hide and navigate sheets",
+  "main": "index.html",
   "homepage": "https://stante-mk.github.io/excel-sheets-list",
   "scripts": {
     "dev": "vite",
@@ -8,13 +10,14 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "react": "...",
-    "react-dom": "...",
-    "office-js": "^1.x"
+    "office-js": "^1.1.85",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^...",
-    "vite": "^...",
-    "vite-plugin-office-addin": "^..."
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^5.2.0",
+    "vite-plugin-office-addin": "^0.4.0",
+    "gh-pages": "^6.0.0"
   }
 }
