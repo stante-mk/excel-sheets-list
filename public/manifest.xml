@@ -12,7 +12,9 @@
   <SupportUrl DefaultValue="https://stante-mk.github.io/excel-sheets-list/"/>
   <Hosts><Host Name="Workbook"/></Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://stante-mk.github.io/excel-sheets-list/"/>
+    <SourceLocation DefaultValue="https://stante-mk.github.io/excel-sheets-list/index.html" />
+
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
 </OfficeApp>
+
