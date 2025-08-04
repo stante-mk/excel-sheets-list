@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:type="TaskPaneApp">
+  <Id>$(office-addin-guid)</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>stante-mk</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Excel Sheets List"/>
+  <Description DefaultValue="Naviga fogli, cerca e attiva con clic"/>
+  <IconUrl DefaultValue="https://stante-mk.github.io/excel-sheets-list/assets/icon-32.png"/>
+  <SupportUrl DefaultValue="https://stante-mk.github.io/excel-sheets-list/"/>
+  <Hosts><Host Name="Workbook"/></Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://stante-mk.github.io/excel-sheets-list/"/>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
